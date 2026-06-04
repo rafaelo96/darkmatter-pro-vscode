@@ -1,0 +1,38 @@
+{
+  "name": "darkmatter-pro",
+  "displayName": "DarkMatter Pro",
+  "description": "Tema oscuro premium para VS Code con workbench moderno y sintaxis inspirada en Monokai.",
+  "version": "1.0.0",
+  "publisher": "Rafael-Avalos",
+  "author": "Rafael Avalos",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "monokai",
+    "darkmatter",
+    "vue",
+    "typescript",
+    "javascript"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#0D1117",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "DarkMatter Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darkmatter-pro-color-theme.json"
+      }
+    ]
+  }
+}
